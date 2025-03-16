@@ -1,14 +1,12 @@
-import Button from "./ui/button"
+import Button from "./ui/button";
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <h1 className="text-3xl font-bold underline">Hello world!</h1>
       <Button>button</Button>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
