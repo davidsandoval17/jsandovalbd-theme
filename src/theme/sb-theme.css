@@ -1,6 +1,8 @@
 @import "./font-family.css";
 @import "tailwindcss";
 
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
 @theme {
   --font-titillium-web: "Titillium Web", sans-serif;
 }
