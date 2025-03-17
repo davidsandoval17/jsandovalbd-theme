@@ -1,0 +1,14 @@
+@import "./font-family.css";
+@import "tailwindcss";
+
+@theme {
+  --font-titillium-web: "Titillium Web", sans-serif;
+}
+
+body {
+  @apply font-titillium-web  text-gray-600 text-base overflow-x-hidden;
+
+  @variant dark {
+    @apply bg-gray-950  text-gray-300;
+  }
+}
